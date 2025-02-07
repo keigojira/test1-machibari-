@@ -35,7 +35,7 @@ class Needle {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.speed = 20;
+        this.speed = 1;
     }
 
     move() {
