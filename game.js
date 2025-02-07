@@ -8,8 +8,8 @@ let gameActive = false;
 
 class Balloon {
     constructor(x, speed) {
-        this.x = x;
-        this.y = canvas.height;
+        this.x = canvas.height;
+        this.y = y;
         this.speed = speed;
         this.radius = 20;
         this.color = `hsl(${Math.random() * 360}, 80%, 60%)`;
@@ -35,7 +35,7 @@ class Needle {
     constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.speed = 1;
+        this.speed = 50;
     }
 
     move() {
