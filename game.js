@@ -39,7 +39,7 @@ class Needle {
     }
 
     move() {
-        this.y -= this.speed;
+        this.x -= this.speed;
     }
 
     draw() {
